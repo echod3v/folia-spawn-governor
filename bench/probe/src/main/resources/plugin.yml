@@ -1,0 +1,14 @@
+name: SpawnBench
+version: '${project.version}'
+main: io.github.jayden0903.spawnbench.BenchProbe
+api-version: '26.2'
+folia-supported: true
+description: TEST SERVERS ONLY - bot layouts, state dumps and world protection for load benchmarks
+commands:
+  spawnbench:
+    description: Place bots into a layout or stop the bench
+    permission: spawnbench.admin
+    usage: /spawnbench <dense|grid|chain|random> [spacing-or-radius] | stop
+permissions:
+  spawnbench.admin:
+    default: op

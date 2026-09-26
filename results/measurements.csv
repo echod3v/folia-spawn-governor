@@ -1,0 +1,49 @@
+config,layout,bots,regions,worst_region_players,worst_region_mspt,min_region_tps,max_tick_ms,pass_40ms_19_8tps
+sim6,grid 650 blocks,60,6,55.0,201.6,4.96,280.8,False
+sim6,chain 400 blocks,60,6,55.0,247.5,4.04,353.6,False
+sim6,chain 400 blocks,40,6,35.0,160.9,6.21,242.2,False
+sim6,chain 400 blocks,30,3,28.0,119.7,8.35,195.1,False
+sim6,chain 400 blocks,20,5,17.8,74.3,13.45,153.9,False
+sim5,grid 650 blocks,60,5,54.0,152.4,6.56,235.7,False
+sim5,chain 400 blocks,60,5,55.0,208.3,4.8,334.4,False
+sim5,chain 400 blocks,40,5,36.0,143.7,6.96,247.6,False
+sim5,chain 400 blocks,30,3,28.0,102.4,9.76,161.5,False
+sim5,chain 400 blocks,20,3,18.5,68.0,14.7,176.9,False
+sim4,grid 650 blocks,60,5,55.0,168.9,5.91,347.3,False
+sim4,chain 400 blocks,60,5,56.0,207.9,4.81,304.7,False
+sim4,chain 400 blocks,40,6,35.0,126.6,7.9,192.7,False
+sim4,chain 400 blocks,30,3,28.0,99.4,10.06,175.6,False
+sim4,chain 400 blocks,20,2,18.9,60.0,16.66,128.5,False
+sim6 +EAR,grid 650 blocks,60,6,55.0,151.1,6.61,278.3,False
+sim6 +EAR,chain 400 blocks,60,5,56.0,203.9,4.9,315.5,False
+sim6 +EAR,chain 400 blocks,40,4,37.0,121.3,8.24,208.1,False
+sim6 +EAR,chain 400 blocks,30,3,28.0,86.9,11.5,154.6,False
+sim6 +EAR,chain 400 blocks,20,2,17.0,46.4,19.44,156.7,False
+sim4 +EAR,grid 650 blocks,60,5,56.0,123.6,8.08,209.2,False
+sim4 +EAR,chain 400 blocks,60,4,57.0,152.1,6.57,232.8,False
+sim4 +EAR,random ±4500,60,13,47.6,139.2,7.18,225.4,False
+sim4 +EAR,random ±4500,40,13,20.0,58.6,17.01,116.8,False
+sim4 +EAR,random ±4500,30,13,17.0,42.0,19.98,97.8,False
+sim4 +EAR,random ±4500,20,17,9.0,24.0,20.0,52.3,True
+sim6,random ±10000,60,43,11.1,18.5,19.99,99.5,True
+sim6,random ±4500,60,22,18.0,87.1,11.48,236.1,False
+sim4 +EAR,random ±10000,60,42,10.3,11.4,19.97,92.2,True
+sim4 +EAR,random ±4500,60,24,22.1,70.3,14.22,145.3,False
+sim6 +governor v1,chain 400 blocks,60,9,49.0,130.1,7.68,254.3,False
+sim6 +governor v1,chain 400 blocks (settled),60,9,49.0,56.9,17.36,119.4,False
+sim6 +governor v1,random ±4500,60,15,32.0,71.6,13.8,180.8,False
+sim6 +governor v1,grid 650 blocks,60,9,52.0,173.5,5.76,328.4,False
+sim6 +governor v2 +NUMA/THP,chain 400 blocks,60,6,49.0,44.0,19.16,92.0,False
+sim6 +governor v2 +NUMA/THP,chain 400 blocks (settled),60,7,49.0,52.7,18.31,167.5,False
+sim6 +governor v2 +NUMA/THP,chain 400 blocks (settled),60,6,49.0,46.5,18.34,161.2,False
+sim6 +governor v2 +NUMA/THP,random ±4500,60,13,33.9,45.5,19.41,131.5,False
+sim6 +governor v2 +NUMA/THP,grid 650 blocks,60,7,52.0,102.3,9.76,203.2,False
+sim6 +governor v3 +NUMA/THP,chain 400 blocks,60,7,50.0,35.7,19.98,176.5,True
+sim6 +governor v3 +NUMA/THP,chain 400 blocks (settled),60,6,50.0,33.7,20.0,167.3,True
+sim6 +governor v3 +NUMA/THP,chain 400 blocks (settled),60,6,50.0,35.9,20.0,61.7,True
+sim6 +governor v3 +NUMA/THP,random ±4500,60,12,32.0,35.5,19.89,131.0,True
+sim6 +governor v3 +NUMA/THP,grid 650 blocks,60,6,52.9,72.4,13.79,245.8,False
+sim6 +governor v3 +NUMA/THP,random ±10000,60,37,10.0,34.4,20.0,81.6,True
+sim6 +governor v4 +NUMA/THP,chain 400 blocks,60,9,50.0,43.9,19.43,163.0,False
+sim6 +governor v4 +NUMA/THP,chain 400 blocks (settled),60,9,50.0,42.8,19.92,155.1,False
+sim6 +governor v4 +NUMA/THP,random ±4500,60,13,34.0,43.7,19.5,147.7,False

@@ -1,0 +1,14 @@
+name: SpawnGovernor
+version: '${project.version}'
+main: io.github.jayden0903.spawngovernor.SpawnGovernorPlugin
+api-version: '26.2'
+folia-supported: true
+description: Overload-only, per-region natural spawn governor for Folia (vanilla while healthy)
+commands:
+  spawngovernor:
+    description: Show governor status or reload the configuration
+    permission: spawngovernor.admin
+    usage: /spawngovernor [reload]
+permissions:
+  spawngovernor.admin:
+    default: op

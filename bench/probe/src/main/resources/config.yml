@@ -1,0 +1,6 @@
+# TEST SERVERS ONLY. Any player whose name does not start with bot-name-prefix aborts the bench.
+bot-name-prefix: bench
+world: world
+output-directory: bench-output
+max-duration-minutes: 60
+abort-beyond-blocks: 12000

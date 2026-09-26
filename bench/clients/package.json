@@ -1,0 +1,11 @@
+{
+  "name": "spawnbench-clients",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight protocol-level bots for SpawnBench (test servers only)",
+  "main": "clients.js",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "minecraft-protocol": "^1.67.0"
+  }
+}

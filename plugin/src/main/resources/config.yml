@@ -1,0 +1,20 @@
+# SpawnGovernor: overload-only natural spawn governor for Folia regions.
+#
+# While a region's 5-second average tick time is at or below target-mspt, vanilla natural spawning is
+# untouched. Above it, whole natural-spawn ticks are skipped for that region only (an adaptive, per-region
+# ticks-per); existing mobs keep vanilla behaviour and despawn normally, so mob density falls just enough to
+# hold the target. 50 ms is the 20 TPS budget; the default leaves room for tick-to-tick variance.
+enabled: true
+target-mspt: 42.0
+# Spawning is handed back only once the region is this far below the target (prevents oscillation).
+hold-band-mspt: 4.0
+minimum-spawn-fraction: 0.0
+max-decrease-per-second: 0.25
+recover-step-per-second: 0.02
+
+# Last resort, only while spawning is already fully cut and the region is still above this tick time:
+# mobs that vanilla may despawn (hostiles, bats, fish and squid beyond 32 blocks of every player, with no
+# name tag, leash or vehicle; never animals, villagers, bosses or raids) are despawned sooner, without drops.
+despawn-assist: true
+despawn-assist-above-mspt: 46.0
+despawn-assist-chance-per-second: 0.2
